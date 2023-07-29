@@ -1,13 +1,9 @@
 import subprocess
-
-# List all the required modules here
 required_modules = [
     'module1',
     'module2',
     'module3',
 ]
-
-# Install each module using pip
 for module in required_modules:
     try:
         subprocess.check_call(['pip', 'install', module])
